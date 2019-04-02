@@ -9,3 +9,4 @@ res = requests.get('http://kaijiang.500.com/shtml/dlt/18001.shtml', headers=head
 html = etree.HTML(res.text)
 result = etree.tostring(html)
 print(result)
+print('hello world')
